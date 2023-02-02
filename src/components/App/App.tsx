@@ -7,8 +7,10 @@ const App = (): JSX.Element => {
   return (
     <div className="container">
       <Info />
-      <Keyboard />
-      <Actions />
+      <main className="phone">
+        <Keyboard />
+        <Actions />
+      </main>
     </div>
   );
 };
